@@ -27,26 +27,26 @@ describe("Operacion divicion", function () {
     });
 
     describe("test 3", () => {
-        it("return 0.666", () => {
+        it("return 0.6666666666666666", () => {
             let numberA = "2000";
             let numberB = "3000";
             let symbol = "/";
 
             const result = division.division(numberA, numberB, symbol);
 
-            expect(result).to.equal("0.666");
+            expect(result).to.equal("0.6666666666666666");
         });
     });
 
     describe("test 4", () => {
-        it("return 10,666", () => {
+        it("return 10.666666666666666", () => {
             let numberA = "1920";
             let numberB = "180";
             let symbol = "/";
 
             const result = division.division(numberA, numberB, symbol);
 
-            expect(result).to.equal("10,666");
+            expect(result).to.equal("10.666666666666666");
         });
     });
 });

@@ -21,23 +21,23 @@ describe("Operacion resta", function () {
         expect(result).toEqual("1");
     });
 
-    it("test 3 return 0.666", () => {
+    it("test 3 return 0.6666666666666666", () => {
         let numberA = "2000";
         let numberB = "3000";
         let symbol = "/";
 
         const result = division.division(numberA, numberB, symbol);
 
-        expect(result).toEqual("0.666");
+        expect(result).toEqual("0.6666666666666666");
     });
 
-    it("test 4 return 10,666", () => {
+    it("test 4 return 10.666666666666666", () => {
         let numberA = "1920";
         let numberB = "180";
         let symbol = "/";
 
         const result = division.division(numberA, numberB, symbol);
 
-        expect(result).toEqual("10,666");
+        expect(result).toEqual("10.666666666666666");
     });
 });
