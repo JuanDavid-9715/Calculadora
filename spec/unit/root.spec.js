@@ -5,7 +5,7 @@ describe("Operacion resta", function () {
         let numberA = "9";
         let symbol = "r";
 
-        const result = squareRoot.root(numberA, numberB, symbol);
+        const result = squareRoot.root(numberA, symbol);
 
         expect(result).toEqual("3");
     });
@@ -14,7 +14,7 @@ describe("Operacion resta", function () {
         let numberA = "625";
         let symbol = "r";
 
-        const result = squareRoot.root(numberA, numberB, symbol);
+        const result = squareRoot.root(numberA, symbol);
 
         expect(result).toEqual("25");
     });
@@ -23,7 +23,7 @@ describe("Operacion resta", function () {
         let numberA = "10000";
         let symbol = "r";
 
-        const result = squareRoot.root(numberA, numberB, symbol);
+        const result = squareRoot.root(numberA, symbol);
 
         expect(result).toEqual("100");
     });
@@ -32,7 +32,7 @@ describe("Operacion resta", function () {
         let numberA = "9025";
         let symbol = "r";
 
-        const result = squareRoot.root(numberA, numberB, symbol);
+        const result = squareRoot.root(numberA, symbol);
 
         expect(result).toEqual("95");
     });

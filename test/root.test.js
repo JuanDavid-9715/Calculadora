@@ -7,7 +7,7 @@ describe("Operacion raiz", function () {
             let numberA = "9";
             let symbol = "r";
 
-            const result = squareRoot.root(numberA, numberB, symbol);
+            const result = squareRoot.root(numberA, symbol);
 
             expect(result).to.equal("3");
         });
@@ -17,7 +17,7 @@ describe("Operacion raiz", function () {
             let numberA = "625";
             let symbol = "r";
 
-            const result = squareRoot.root(numberA, numberB, symbol);
+            const result = squareRoot.root(numberA, symbol);
 
             expect(result).to.equal("25");
         });
@@ -28,7 +28,7 @@ describe("Operacion raiz", function () {
             let numberA = "10000";
             let symbol = "r";
 
-            const result = squareRoot.root(numberA, numberB, symbol);
+            const result = squareRoot.root(numberA, symbol);
 
             expect(result).to.equal("100");
         });
@@ -39,7 +39,7 @@ describe("Operacion raiz", function () {
             let numberA = "9025";
             let symbol = "r";
 
-            const result = squareRoot.root(numberA, numberB, symbol);
+            const result = squareRoot.root(numberA, symbol);
 
             expect(result).to.equal("95");
         });
