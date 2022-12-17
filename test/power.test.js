@@ -22,7 +22,7 @@ describe("Operacion a la potencia", function () {
 
             const result = powers.powers(numberA, numberB, symbol);
 
-            expect(result).to.equal("250.000");
+            expect(result).to.equal("250000");
         });
     });
 

@@ -18,7 +18,7 @@ describe("Operacion resta", function () {
 
         const result = powers.powers(numberA, numberB, symbol);
 
-        expect(result).toEqual("250.000");
+        expect(result).toEqual("250000");
     });
 
     it("test 3 return 8000000000", () => {
