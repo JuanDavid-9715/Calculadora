@@ -1,4 +1,5 @@
 let expect = require("chai").expect;
+let residue = require("../js/module");
 
 describe("Operacion modulo", function () {
     describe("test 1", () => {
@@ -6,7 +7,7 @@ describe("Operacion modulo", function () {
             let numberA = "10";
             let numberB = "10";
 
-            const result = module.module(numberA, numberB);
+            const result = residue.module(numberA, numberB);
 
             expect(result).to.equal("0");
         });
@@ -17,7 +18,7 @@ describe("Operacion modulo", function () {
             let numberA = "500";
             let numberB = "2";
 
-            const result = module.module(numberA, numberB);
+            const result = residue.module(numberA, numberB);
 
             expect(result).to.equal("0");
         });
@@ -28,7 +29,7 @@ describe("Operacion modulo", function () {
             let numberA = "2000";
             let numberB = "3";
 
-            const result = module.module(numberA, numberB);
+            const result = residue.module(numberA, numberB);
 
             expect(result).to.equal("2");
         });
@@ -39,7 +40,7 @@ describe("Operacion modulo", function () {
             let numberA = "1920";
             let numberB = "180";
 
-            const result = module.module(numberA, numberB);
+            const result = residue.module(numberA, numberB);
 
             expect(result).to.equal("120");
         });

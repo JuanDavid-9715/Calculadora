@@ -1,9 +1,11 @@
+let residue = require("../../js/module");
+
 describe("Operacion resta", function () {
     it("test 1 return 0", () => {
         let numberA = "10";
         let numberB = "10";
 
-        const result = module.module(numberA, numberB);
+        const result = residue.module(numberA, numberB);
 
         expect(result).toEqual("0");
     });
@@ -12,7 +14,7 @@ describe("Operacion resta", function () {
         let numberA = "500";
         let numberB = "2";
 
-        const result = module.module(numberA, numberB);
+        const result = residue.module(numberA, numberB);
 
         expect(result).toEqual("0");
     });
@@ -21,7 +23,7 @@ describe("Operacion resta", function () {
         let numberA = "2000";
         let numberB = "3";
 
-        const result = module.module(numberA, numberB);
+        const result = residue.module(numberA, numberB);
 
         expect(result).toEqual("2");
     });
@@ -30,7 +32,7 @@ describe("Operacion resta", function () {
         let numberA = "1920";
         let numberB = "180";
 
-        const result = module.module(numberA, numberB);
+        const result = residue.module(numberA, numberB);
 
         expect(result).toEqual("120");
     });
