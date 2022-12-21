@@ -8,8 +8,11 @@
         <title>Calculadora</title>
 
         <link rel="stylesheet" href="index.css" />
+
+        <script src="js/fuctinos.js" type="text/JavaScript"></script>
+        <script src="js/mathFuctions.js" type="text/JavaScript"></script>
     </head>
-    <body>
+    <body onload="calculator()">
         <div class="calculator">
             <div class="contenedor header">
                 <div class="circle red"></div>
@@ -17,94 +20,94 @@
                 <div class="circle green"></div>
             </div>
             <div class="contenedor display math">
-                <span>5 + 5|</span>
+                <span id="displayMath">|</span>
             </div>
-            <div class="contenedor display response">
-                <span>10</span>
+            <div class="contenedor display Result">
+                <span id="displayResult">0</span>
             </div>
             <div class="contenedor animation">
                 <canvas id="lamp-anim"></canvas>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
-                    <img src="access/svg/iconoDeletAll.svg" />
+                <button id="deleteAll" class="fuction">
+                    <img src="access/svg/iconoDeleteAll.svg" />
                 </button>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
-                    <img src="access/svg/iconoDeletUno.svg" />
+                <button id="deleteLast" class="fuction">
+                    <img src="access/svg/iconoDeleteLast.svg" />
                 </button>
             </div>
             <div class="contenedor button">
-                <button class="character">7</button>
+                <button id="num7" class="character">7</button>
             </div>
             <div class="contenedor button">
-                <button class="character">8</button>
+                <button id="num8" class="character">8</button>
             </div>
             <div class="contenedor button">
-                <button class="character">9</button>
+                <button id="num9" class="character">9</button>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
+                <button id="root" class="fuction">
                     <img src="access/svg/iconoRoot.svg" />
                 </button>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
+                <button id="power" class="fuction">
                     <img src="access/svg/iconoPower.svg" />
                 </button>
             </div>
             <div class="contenedor button">
-                <button class="character">4</button>
+                <button id="num4" class="character">4</button>
             </div>
             <div class="contenedor button">
-                <button class="character">5</button>
+                <button id="num5" class="character">5</button>
             </div>
             <div class="contenedor button">
-                <button class="character">6</button>
+                <button id="num6" class="character">6</button>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
+                <button id="multiplication" class="fuction">
                     <img src="access/svg/iconoMultiplication.svg" />
                 </button>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
+                <button id="division" class="fuction">
                     <img src="access/svg/iconoDivision.svg" />
                 </button>
             </div>
             <div class="contenedor button">
-                <button class="character">1</button>
+                <button id="num1" class="character">1</button>
             </div>
             <div class="contenedor button">
-                <button class="character">2</button>
+                <button id="num2" class="character">2</button>
             </div>
             <div class="contenedor button">
-                <button class="character">3</button>
+                <button id="num3" class="character">3</button>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
+                <button id="addition" class="fuction">
                     <img src="access/svg/iconoAddition.svg" />
                 </button>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
+                <button id="subtraction" class="fuction">
                     <img src="access/svg/iconoSubtraction.svg" />
                 </button>
             </div>
             <div class="contenedor button num0">
-                <button class="character">0</button>
+                <button id="num0" class="character">0</button>
             </div>
             <div class="contenedor button">
-                <button class="character">.</button>
+                <button id="point" class="character">.</button>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
+                <button id="module" class="fuction">
                     <img src="access/svg/iconoModule.svg" />
                 </button>
             </div>
             <div class="contenedor button">
-                <button class="fuction">
+                <button id="equal" class="fuction">
                     <img src="access/svg/iconoEqual.svg" />
                 </button>
             </div>
