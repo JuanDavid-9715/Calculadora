@@ -1,61 +1,61 @@
-const addition = function (numberA, numberB) {
+function addition(numberA, numberB) {
     let numA = parseInt(numberA);
     let numB = parseInt(numberB);
 
     const result = numA + numB;
 
     return result.toString();
-};
+}
 
-const subtraction = function (numberA, numberB) {
+function subtraction(numberA, numberB) {
     let numA = parseInt(numberA);
     let numB = parseInt(numberB);
 
     const result = numA - numB;
 
     return result.toString();
-};
+}
 
-const multiplication = function (numberA, numberB) {
+function multiplication(numberA, numberB) {
     let numA = parseInt(numberA);
     let numB = parseInt(numberB);
 
     const result = numA * numB;
 
     return result.toString();
-};
+}
 
-const division = function (numberA, numberB) {
+function division(numberA, numberB) {
     let numA = parseInt(numberA);
     let numB = parseInt(numberB);
 
     const result = numA / numB;
 
     return result.toString();
-};
+}
 
-const module = function (numberA, numberB) {
+function module(numberA, numberB) {
     let numA = parseInt(numberA);
     let numB = parseInt(numberB);
 
     const result = numA % numB;
 
     return result.toString();
-};
+}
 
-const powers = function (numberA, numberB) {
+function powers(numberA, numberB) {
     let numA = parseInt(numberA);
     let numB = parseInt(numberB);
 
     const result = numA ** numB;
 
     return result.toString();
-};
+}
 
-const root = function (numberA) {
+function root(numberA) {
     let numA = parseInt(numberA);
 
     const result = Math.sqrt(numA);
 
     return result.toString();
-};
+}
